@@ -10,7 +10,14 @@ body {font-family: Arial, Helvetica, sans-serif;
         /*border: 1px solid rgb(37, 37, 37);*/
         box-sizing: border-box;
     }
-    
+    #back-pic{
+  background-image: url("https://images.cnbctv18.com/wp-content/uploads/2019/03/General-Elections-20197-768x432.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;}
     /* Set a style for all buttons */
     button {
         background-color: rgb(91, 147, 199);

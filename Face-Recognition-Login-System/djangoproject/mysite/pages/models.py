@@ -6,7 +6,10 @@ from vote.models import VoteModel
 # Create your models here.
 class UserProfile(models.Model):
     user=models.OneToOneField(User,on_delete=None,primary_key=True)
-    description =models.CharField(max_length=100,default=' ')
+    firstname=models.CharField(max_length=100,default=' ')
+    Aadharno=models.CharField(max_length=12,default=' ')
+    Voteridno=models.CharField(max_length=12,default=' ')
+
     city=models.CharField(max_length=20,default="")
     phone=models.IntegerField(default=0)
     head_shot=models.ImageField(upload_to='profil_images',blank=True)
